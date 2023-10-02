@@ -148,6 +148,12 @@ main {
     gap: 1.25rem;
 }
 
+.navbar li a:hover{
+    color: #5dafe6;
+}
+
+
+
 .navbar li a{
     text-decoration: none;
     font-size: 1.25rem ;
@@ -241,6 +247,16 @@ img-oq{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0px;
     }
 }
 
