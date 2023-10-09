@@ -19,32 +19,50 @@
                 
                 <li> <a href="../index.html">Volver al Inicio</a> </li>
                     <li> <a href="./sobre-nosotros.html">Sobre nosotros</a> </li>
-                    <li> <a href="productos.html">Productos</a> <a href=""></a> </li>
+                    <li><a href="./productos.html">Productos</a></li>
                     <li> <a href="./precompra.html">Realiza la precompra del OQ 3</a> </li>
                 
             </ul>
         </nav>
+        
     </header>
 
-        <h1>Contacto</h1>
-    <form action="">
-        <fieldset>
-            <legend>Ingrese sus datos personales</legend>
-            <label for="nombre">Nombre y Apellido</label> 
-            <input type="text" id="Nombre y Apellido" placeholder="Ingrese su nombre" required>
+    <section class="contact-section">
+        <h2>Contacto</h2>
+        <form action="" method="post">
+            <div class="input-group">
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-            <label for="mail">Correo electronico</label>
-            <input type="email" id="mail" placeholder="Ingrese su correo"required>
+            <div class="input-group">
+                <label for="message">Explaye su consulta:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
 
-            <label for="Numero de Telefono">Numero de Telefono</label>
-            <input type="number" id="Numero de Telefono" placeholder="Telefono"required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-            <label for="problema">Explaye su problema</label>
-            <input type="text" id="problema" placeholder="Escriba aqui" required>
-        </fieldset>
-        <input type="submit">
-    </form>
+        <footer class="footer-container">
+            <div class="contact-info">
+                <h3>Datos de Contacto</h3>
+                <p>Email: avancinisantino3@gmail.com</p>
+                <p>Teléfono: +1 234 567 890</p>
+                <p>Dirección: Calle 123, Buenos Aires, Argentina</p>
+            </div>
+            <div class="social-media">
+                <h3>Redes Sociales</h3>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </footer>
 
-        <p>Tras rellenar este formulario, nos contactaremos con usted</p>
 </body>
 </html>
