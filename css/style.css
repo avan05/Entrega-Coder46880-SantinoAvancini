@@ -23,7 +23,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     transition: background-color 0.3s ease; 
+    
 }
+
 
 .sobre-nosotros {
     max-width: 800px;
@@ -148,11 +150,10 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: space-around;
+    transform: scale(1);
 }
 
-nav ul li {
-    list-style: none;
-}
+
 
 h1 {
     text-align: center;
@@ -203,6 +204,17 @@ main {
     font-size: 1.25rem ;
     color: rgb(255, 255, 255);
     gap: 1.25rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    font-size: 20px;
 }
 
 .card{
@@ -361,6 +373,14 @@ img-oq{
 
 .social-media a:hover {
     opacity: 0.7;
+}
+
+.sombra{
+    margin-left: 2.5rem ;
+    width: 10.25rem;
+    height: 10.25rem;
+    border-radius: 50%;
+
 }
 
 
